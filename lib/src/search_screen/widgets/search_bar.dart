@@ -7,7 +7,7 @@ import 'package:mobile_ecommerce/src/constrains/fonts.dart';
 import 'package:mobile_ecommerce/src/search_screen/search_screen_view.dart';
 
 Widget AppSearchBarWidget(BuildContext context) {
-  bool isClicked = true;
+  // bool isClicked = true;
   return Row(
     children: [
       Expanded(
