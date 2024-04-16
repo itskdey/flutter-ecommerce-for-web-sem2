@@ -33,10 +33,7 @@ class HomeView extends GetView<HomeViewController> {
                 //search bar
                 GestureDetector(
                   onTap: () {
-                    Get.to(
-                      () => SearchScreenView(),
-                      transition: Transition.upToDown,
-                    );
+                    Get.toNamed('/searchScreen');
                   },
                   child: Container(
                     margin: const EdgeInsets.only(top: 20),
@@ -154,3 +151,6 @@ class HomeView extends GetView<HomeViewController> {
     );
   }
 }
+
+
+//w

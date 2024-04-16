@@ -15,6 +15,7 @@ class AppPages {
       name: Routes.searchScreen,
       page: () => SearchScreenView(),
       binding: SearchScreenViewBinding(),
+      transition: Transition.upToDown,
     )
   ];
 }
