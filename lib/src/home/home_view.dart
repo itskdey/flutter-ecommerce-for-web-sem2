@@ -151,3 +151,5 @@ class HomeView extends GetView<HomeViewController> {
     );
   }
 }
+
+//[]
